@@ -16,5 +16,14 @@ namespace GitHub01
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(textBox1.Text);
+            double y = double.Parse(textBox2.Text);
+
+            MessageBox.Show("Soucet je " + (x + y));
+   
+        }
     }
 }
