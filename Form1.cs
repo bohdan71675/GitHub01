@@ -23,7 +23,7 @@ namespace GitHub01
             double y = double.Parse(textBox2.Text);
 
             MessageBox.Show("Soucet je " + (x + y));
-   
+            MessageBox.Show("Rozdil je " + (x - y));
         }
     }
 }
